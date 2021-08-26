@@ -1,0 +1,38 @@
+.category {
+  display: flex;
+  box-shadow: 0 1px 0.24px rgba(0,0,0, 0.2);
+  position: relative;
+  z-index: 998;
+}
+
+.category__left {
+  display: flex;
+  align-items: center;
+}
+
+.category__left > h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-right: auto;
+  margin-left: 50px;
+  color: #003034;
+}
+
+.category__left > .MuiSvgIcon-root {
+  color: #003034 !important;
+}
+
+.category__right {
+  display: flex;
+}
+
+.category__right > li {
+  list-style: none;
+  margin: 10px;
+  color: #003034;
+  cursor: pointer;
+}
+
+.category__right > li:hover {
+  color: #23E5DB;
+}

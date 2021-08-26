@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #CCD5D6;
+  width: 300px;
+  cursor: pointer;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.card__header > img {
+  width: 180px;
+}
+
+.card__higlight {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.card__higlight > span {
+  background-color: #FFCE32;
+  padding: 5px;
+}
+
+.card__body {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  padding-right: 10px;
+  border-left: 4px solid #FFCE32;
+}
+
+.card__body > h3 {
+  color: #003034;
+  font-size: 20px;
+}
+
+.card__year {
+  color: #003034;
+}
+
+.card__description {
+  color: gray;
+  width: 250px;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  padding: 5px 0;
+}
+
+.card__bodyFooter {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  font-size: 12px;
+  padding-top: 10px;
+}
